@@ -1,0 +1,21 @@
+HELP.md
+target/
+!**/src/main/**
+!**/src/test/**
+*.bak
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
