@@ -14,6 +14,6 @@ public class HumanReadableControllerTest {
   @Test
   void testIndex() {
     String response = controller.index();
-    assertEquals(response, "Dummy endpoint to test setups");
+    assertEquals(response, "Dummy endpoint to test setup");
   }
 }
