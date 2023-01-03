@@ -1,12 +1,6 @@
 name: Java CI
 
-on:
-  push:
-    branches: [main, develop]
-  pull_request:
-    branches: [main, develop]
-
-  workflow_dispatch:
+on: [push]
 
 jobs:
   build:
